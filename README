@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=193
+
+This script provides a way to have vim put a fortune at the end of your mail messages. Most unix mail clients automatically handle the capability of having a program output as the signature file, but most windows mail clients, (at least PC-pine) do not (yet) provide a way to do this. This script provides a vim way to do the equivalent, if your mail client is capable of using external editors to compose mails. 
+
+In addition, this script also provides a way to change the style in which you quote the reply to your mails. by default, PC-pine quotes messages with the header:
+   On Sat 12 Jun 2001, John Doe wrote:
+too boring? 
+This script will change this to:
+   In our last exciting episode on Sat 12 Jun 2001, John Doe said:
+You can ofcourse customize this to your special whackiness by changing the function ReplaceQuote().
+
